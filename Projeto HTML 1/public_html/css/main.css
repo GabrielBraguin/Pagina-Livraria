@@ -137,32 +137,37 @@ table, tr {
     #sobre {
         margin-top: 150px;
     }
+    .sh1 {
+        padding: 110px 0px 10px 40px;
+        color: white;
+        font-size: 3.7em;    
+        letter-spacing: 5px;
+        text-shadow:  3px 3px black;
+    }
     
-    .sh1, .sh2 {
-        padding-left: 5px;
-        color: darkred;
+    .sh2 {
+        padding: 0px 10px 0px 40px; 
+        color: white;
+        text-shadow: 2px 2px black;
     }
 }
 
-@media screen and (max-width: 600px) {
-    .shw1:after {
-        color: red;
+@media only screen and (min-width: 601px) {
+        .sh1 {
+        padding: 110px 0px 20px 240px;
+        color: white;
+        font-size: 3.7em;    
+        letter-spacing: 5px;
+        text-shadow:  3px 3px black;
+    }
+
+    .sh2 {
+        padding: 0px 290px 0px 240px; 
+        color: white;
+        text-shadow: 2px 2px black;
     }
 }
 
-.sh1 {
-    padding: 110px 0px 20px 240px;
-    color: white;
-    font-size: 3.7em;    
-    letter-spacing: 5px;
-    text-shadow:  3px 3px black;
-}
-
-.sh2 {
-    padding: 0px 290px 0px 240px; 
-    color: white;
-    text-shadow: 2px 2px black;
-}
 
 /********** FOOTER **********/
 
