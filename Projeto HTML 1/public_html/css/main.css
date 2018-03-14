@@ -1,0 +1,181 @@
+/* 
+    Created on : Mar 6, 2018, 9:14:34 PM
+    Author     : Gabriel Ferreira Braguin
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Alfa Slab One');
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+header, section, footer, aside, nav, main, article, figure {
+  display: block; 
+}
+
+body {
+    font-family: "Alfa Slab One", sans-serif;
+    background-color: #FFFFFF;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/************ HEADER ***********/
+
+.header-sticky {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: #555555;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.navheader-custom {
+    background-color: #555555;
+    background: linear-gradient(0deg, #555555 10%, #222222 90%);
+    width: 100%;
+    margin: auto;
+}
+
+.navbar-brand-custom {
+    color: #FFFFFF;
+    font-size: 1.3em;
+    letter-spacing: 6px;
+    margin-left: 10px;
+    font-family: "Alfa Slab One", sans-serif;
+}
+
+.navbar-brand-custom:link, .navbar-brand-custom:active, .navbar-brand-custom:visited, .navbar-brand-custom:hover {
+    color: #FFFFFF;
+}
+
+.nav-link-custom {
+    color: #FFFFFF;
+    font-size: 1.3em;
+    margin-left: 12px;
+    font-family: "Alfa Slab One", sans-serif;
+}
+
+.nav-link-custom:link, .nav-link-custom:active, .nav-link-custom:visited {
+    color: #DDDDDD;
+}
+
+.nav-link-custom:hover {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.pesquisa {
+    min-width: 400px;
+    margin: auto;
+}
+
+.btn-custom {
+    margin-left: 5px;
+}
+
+.collapse-custom {
+    background-color: #555555;
+    background: linear-gradient(0deg, #777777 20%, #555555  80%);
+    width: 100%;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.dropdown-item-custom, .dropdown-item-custom:link, .dropdown-item-custom:active, .dropdown-item-custom:visited {
+    width: 100%;
+    display: block;
+    clear: both;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.dropdown-item-custom:hover {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+th {
+    width: 33%;
+}
+
+table, tr {
+    margin: auto;
+    width: 100%;
+}
+
+
+/********* CONTENT **********/
+
+#conteudo {
+    display: block;
+    color: #3C490D;
+    margin: 90px;
+    text-align: justify;
+}
+
+
+
+/*********** SOBRE ***********/
+
+#sobre {
+    background-image: url('../images/livros.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 630px;
+    margin-top: 60px;
+    font-family: "Alfa Slab One", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    #sobre {
+        margin-top: 150px;
+    }
+    
+    .sh1, .sh2 {
+        padding-left: 5px;
+        color: darkred;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .shw1:after {
+        color: red;
+    }
+}
+
+.sh1 {
+    padding: 110px 0px 20px 240px;
+    color: white;
+    font-size: 3.7em;    
+    letter-spacing: 5px;
+    text-shadow:  3px 3px black;
+}
+
+.sh2 {
+    padding: 0px 290px 0px 240px; 
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+/********** FOOTER **********/
+
+.rodape {
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 40px;
+}
+
+footer {
+    background-color: #2f2f2f;
+    width: 100%;
+    height: 200px;
+}
